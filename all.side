@@ -1,0 +1,582 @@
+{
+  "id": "26a46854-df04-40e8-8175-735f12f674a8",
+  "version": "2.0",
+  "name": "all",
+  "url": "https://megamarket.ru",
+  "tests": [{
+    "id": "814c33c4-d111-479a-af0c-76f7e8a2b8b2",
+    "name": "all_end",
+    "commands": [{
+      "id": "edff80d5-ce24-4ccb-aa28-29f4b72ae804",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a543f07-3ee5-4404-92a6-fa33cfbfe90a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ed8742d-6467-4aa3-a75d-7dbcdb97e3cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62b1992b-77b7-4c4a-a302-13afde8f5911",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,92)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "158bfe77-9cf7-4024-b2d6-48e595120ba9",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.suggestions:nth-child(1) > .suggestions__group:nth-child(3) span",
+      "targets": [
+        ["css=.suggestions:nth-child(1) > .suggestions__group:nth-child(3) span", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div[2]/div/div/li[2]/a/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'манга гарипотер')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe3925d1-5f79-409e-b2ee-3d12e80a662e",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.page-index__top-block",
+      "targets": [
+        ["css=.page-index__top-block", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "899ebe65-87f8-451f-b7f1-80dc0b4c301a",
+      "comment": "",
+      "command": "click",
+      "target": "id=app",
+      "targets": [
+        ["id=app", "id"],
+        ["css=#app", "css:finder"],
+        ["xpath=//div[@id='app']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b19f3a0-89e9-480f-98b2-525b61629001",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60bd2007-6f66-4492-8efb-d36a0fa908c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search-form__cancel-button use",
+      "targets": [
+        ["css=.header-search-form__cancel-button use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b7bcc8d-aa4a-4a79-8f6a-1bd79bc0adda",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-search-form__cancel-button use",
+      "targets": [
+        ["css=.header-search-form__cancel-button use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e71e170-e020-4cbc-aabb-d46439748dc6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.suggestions__group:nth-child(4) span",
+      "targets": [
+        ["css=.suggestions__group:nth-child(4) span", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div[2]/div/div/li[3]/a/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ботинки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3d8e979-4f2d-462f-8d6e-2cbb74b22415",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.suggestions__group:nth-child(4) span",
+      "targets": [
+        ["css=.suggestions__group:nth-child(4) span", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div[2]/div/div/li[3]/a/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ботинки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9ea909c-29e8-4435-a990-4c7d4d52ab1f",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.suggestions__group:nth-child(4) span",
+      "targets": [
+        ["css=.suggestions__group:nth-child(4) span", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div[2]/div/div/li[3]/a/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ботинки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae42c4f9-9f1c-4d99-95f3-7661c7f9c42c",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.catalog-listing-not-found-regular",
+      "targets": [
+        ["css=.catalog-listing-not-found-regular", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc4d7f23-86ab-48fe-893c-75131d36c289",
+      "comment": "",
+      "command": "click",
+      "target": "id=app",
+      "targets": [
+        ["id=app", "id"],
+        ["css=#app", "css:finder"],
+        ["xpath=//div[@id='app']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e68fecde-fd27-474d-986e-e91e1e1d973f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Одежда, обувь и аксессуары",
+      "targets": [
+        ["linkText=Одежда, обувь и аксессуары", "linkText"],
+        ["css=.catalog-department-header__title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Одежда, обувь и аксессуары')]", "xpath:link"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/odezhda-obuv-i-aksessuary')]", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Одежда, обувь и аксессуары')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc6b79cb-6965-4427-a8ee-9a8b9c2a9e9b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#\\31 00031315907 .catalog-item-photo__slider-item:nth-child(2)",
+      "targets": [
+        ["css=#\\31 00031315907 .catalog-item-photo__slider-item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='100031315907']/div[3]/a/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//a/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8de9b096-4c98-473f-b98c-0deeaf508d3b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#\\31 00031315907 .catalog-item-photo__slider-item:nth-child(2)",
+      "targets": [
+        ["css=#\\31 00031315907 .catalog-item-photo__slider-item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='100031315907']/div[3]/a/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//a/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc1391b6-fb46-42b8-8405-4ba94e6dafa4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f7f23fb-5179-4d2f-be33-a6cf1b2383eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 00031315907 .catalog-buy-button__button",
+      "targets": [
+        ["css=#\\31 00031315907 .catalog-buy-button__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='100031315907']/div[4]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc548bb6-c9d6-4407-aab6-d8c3bd05c11b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.store-list__list-item:nth-child(1) .store-item__address",
+      "targets": [
+        ["css=.store-list__list-item:nth-child(1) .store-item__address", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[2]/div/div/div/aside/div/div[2]/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62d05e23-e923-43c1-bd52-1d8362252354",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-button_theme_primary > .c-button__content",
+      "targets": [
+        ["css=.c-button_theme_primary > .c-button__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[2]/div/div/div/aside/div/div[2]/div/div[5]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6046571-1803-4d9a-bde4-66dce6368a5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sm .plus",
+      "targets": [
+        ["css=.sm .plus", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[2]/div/div/div/div[2]/div[2]/div[4]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cd05ec9-357d-45ee-be90-584b554f1dda",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a > .sm",
+      "targets": [
+        ["css=a > .sm", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[2]/div/div/div/div[2]/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Перейти к оформлению')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "843baa0c-b901-4516-9fb9-901fcde01e2a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a > .sm",
+      "targets": [
+        ["css=a > .sm", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[2]/div/div/div/div[2]/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Перейти к оформлению')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41917c91-98e6-498c-9358-1278cb4503c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-modal__close-icon > .svg-icon",
+      "targets": [
+        ["css=.my-modal__close-icon > .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8581d7c-a12d-44ec-945d-012fc899a4d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mini-cart__info > .mini-cart__info",
+      "targets": [
+        ["css=.mini-cart__info > .mini-cart__info", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[7]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7b3ec6-d2a9-44c3-9d57-be5c9f550f60",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bdbf035-8317-446e-8bd1-79386aebd144",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-logo__link",
+      "targets": [
+        ["css=.header-logo__link", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/header/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мегамаркет')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af6323c0-4027-4ab0-89b5-dbfe69f50aa1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo__link",
+      "targets": [
+        ["css=.header-logo__link", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/header/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мегамаркет')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3e50cbf-67ba-4779-9385-0cb182d549a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-entry-point__app .item__text",
+      "targets": [
+        ["css=.header-entry-point__app .item__text", "css:finder"],
+        ["xpath=//div[@id='app']/div[4]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f15545de-f546-48b5-9ada-1affda45a7de",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-entry-point__app .item__text",
+      "targets": [
+        ["css=.header-entry-point__app .item__text", "css:finder"],
+        ["xpath=//div[@id='app']/div[4]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44eeed65-4f80-4d49-9597-4951a9d75ede",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,92)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "325f3be7-b0c7-43ff-bfd1-c8a7dcb9cce9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c7d0ffc-33ff-40fe-bfda-4740217c3fc6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=ботинки",
+      "targets": [
+        ["linkText=ботинки", "linkText"],
+        ["css=.suggestions:nth-child(1) > .suggestions__group:nth-child(2) > .suggestions__item", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div[2]/div/div/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ботинки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87cf4745-e0d2-416e-a152-ab1053b6cc1c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.suggestions:nth-child(1) > .suggestions__group:nth-child(2) > .suggestions__item",
+      "targets": [
+        ["css=.suggestions:nth-child(1) > .suggestions__group:nth-child(2) > .suggestions__item", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div[2]/div/div/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ботинки    ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "982facc6-6488-4187-9d28-7e4bb5800345",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.suggestions:nth-child(1) > .suggestions__group:nth-child(2) > .suggestions__item",
+      "targets": [
+        ["css=.suggestions:nth-child(1) > .suggestions__group:nth-child(2) > .suggestions__item", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div[2]/div/div/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ботинки    ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fc3f4af-dd46-4158-b612-c8b43886bbb2",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.spinner-block",
+      "targets": [
+        ["css=.spinner-block", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35dcec17-ed6b-414b-9b37-3c786b7dd6f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=app",
+      "targets": [
+        ["id=app", "id"],
+        ["css=#app", "css:finder"],
+        ["xpath=//div[@id='app']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b06981a6-63ad-4f50-9811-f40f6fd27d04",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,729.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db22089d-c981-4df5-a721-eb7729be0896",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-favorites__text",
+      "targets": [
+        ["css=.header-favorites__text", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[6]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa44417d-8ce1-4eac-92b9-5a9e20a30afb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group-item-actions > button",
+      "targets": [
+        ["css=.group-item-actions > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[7]/div/div/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcb53ec4-65e7-41a8-8587-a3f0855def68",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 00031315907 .to-favorite-button__icon",
+      "targets": [
+        ["css=#\\31 00031315907 .to-favorite-button__icon", "css:finder"],
+        ["xpath=(//img[@alt='в избранное'])[10]", "xpath:img"],
+        ["xpath=//div[@id='100031315907']/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "802db9fb-021c-4480-85e9-2c7180e7e118",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-favorites__icon > .svg-icon",
+      "targets": [
+        ["css=.header-favorites__icon > .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "66132ae7-78e2-4474-b022-59843ec2d95e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cfd2d8a-66f3-42b5-9f59-f6506e64609d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "579169e4-db62-4c58-ae9d-b8981168c1f4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catalog-item-photo__slider-item:nth-child(4)",
+      "targets": [
+        ["css=.catalog-item-photo__slider-item:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='100031315907']/div[3]/a/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ab47528-9205-498f-9d93-8091735837e5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.catalog-item-photo__slider-item:nth-child(4)",
+      "targets": [
+        ["css=.catalog-item-photo__slider-item:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='100031315907']/div[3]/a/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25a31754-9ef5-44a3-9358-2cfb37ba155e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.to-favorite-button__main-fill",
+      "targets": [
+        ["css=.to-favorite-button__main-fill", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a5c000e-44c5-4da8-9c6e-0e8d0a854ea2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo__link",
+      "targets": [
+        ["css=.header-logo__link", "css:finder"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[7]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мегамаркет')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7453b2a6-aceb-4f57-a8a8-04c1335a5d16",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,92)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae35a3a4-2bda-4ccd-b21b-b0a6eeed08b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-favorites__icon > .svg-icon",
+      "targets": [
+        ["css=.header-favorites__icon > .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5038ec5-e5d1-4894-b136-3818723b1b85",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7791d5f4-f42e-47a5-83b9-b2fe1b267b3f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["814c33c4-d111-479a-af0c-76f7e8a2b8b2"]
+  }],
+  "urls": ["https://megamarket.ru/"],
+  "plugins": []
+}
