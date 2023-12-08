@@ -1,0 +1,202 @@
+{
+  "id": "9996bb9c-ff29-4ac6-8499-d5e183636f8a",
+  "version": "2.0",
+  "name": "3_test",
+  "url": "https://megamarket.ru",
+  "tests": [{
+    "id": "1e579f7b-4fe3-45ce-8b6b-3bfa47812a3e",
+    "name": "3_test",
+    "commands": [{
+      "id": "025a1e24-0f60-47b4-9260-13dcd208e413",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e8d6562-d3ef-4423-9193-83ae5b268efe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c365f6c5-618d-4b6e-be46-65b3e16e162c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ec8808-65dc-45f4-b3af-de2037269584",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,92)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a53b5fdd-97c1-4aed-8816-024ed99b1eeb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ботинки"
+    }, {
+      "id": "e39e7258-fd52-4101-b011-ca54663cf54f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2be90b37-2685-45d7-b648-8ff662a700f5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec325b7a-9c13-4aa5-b1ab-58bd0f41193e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3d31b5b-d489-4637-b7c7-1482fa8fd882",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ce89dd1-652e-48d4-83f3-9f7ea58daba2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 00031315907 .catalog-buy-button__button",
+      "targets": [
+        ["css=#\\31 00031315907 .catalog-buy-button__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='100031315907']/div[4]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5a08645-8af8-4d27-8860-8f2cc501b949",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#\\31 00031315907 .catalog-buy-button__button",
+      "targets": [
+        ["css=#\\31 00031315907 .catalog-buy-button__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='100031315907']/div[4]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "025aeed4-ebe7-4664-9024-c8f9d527b46b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#\\31 00031315907 .catalog-buy-button__button",
+      "targets": [
+        ["css=#\\31 00031315907 .catalog-buy-button__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='100031315907']/div[4]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04172d8e-d31f-40c8-a34f-19867b4192dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.store-list__list-item:nth-child(1) > .store-item__schedule",
+      "targets": [
+        ["css=.store-list__list-item:nth-child(1) > .store-item__schedule", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[2]/div/div/div/aside/div/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "111d7e93-1398-4308-8270-bc14bc48c04c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-button_theme_primary > .c-button__content",
+      "targets": [
+        ["css=.c-button_theme_primary > .c-button__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[2]/div/div/div/aside/div/div[2]/div/div[5]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aa6fdc2-fd27-4786-a948-9f6f4c69f341",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sm .plus use",
+      "targets": [
+        ["css=.sm .plus use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e73d5f8-53b7-4da8-9358-6def7b2ad621",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=KARI. Получить из магазина",
+      "targets": [
+        ["linkText=KARI. Получить из магазина", "linkText"],
+        ["css=.cart-adding-finish-main-item-merchant__link", "css:finder"],
+        ["xpath=//a[contains(text(),'KARI. Получить из магазина')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop/kari-poluchit-iz-magazina/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KARI. Получить из магазина')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "282a7513-aae2-4c18-b927-82a6e8d669dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-modal__close-icon > .svg-icon",
+      "targets": [
+        ["css=.my-modal__close-icon > .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "16ba8e95-d4a3-4a1e-84b7-3479514c534b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-trash > use",
+      "targets": [
+        ["css=.icon-trash > use", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "71157f63-472d-4e99-862f-22f64bc8cf7a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1e579f7b-4fe3-45ce-8b6b-3bfa47812a3e"]
+  }],
+  "urls": ["https://megamarket.ru/"],
+  "plugins": []
+}
