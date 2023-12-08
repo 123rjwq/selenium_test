@@ -1,0 +1,73 @@
+{
+  "id": "e72b4018-c879-44f8-9cc6-ce65baa00afd",
+  "version": "2.0",
+  "name": "2_test",
+  "url": "https://megamarket.ru",
+  "tests": [{
+    "id": "9a982dcf-2559-4d72-b134-f116d56dcabe",
+    "name": "2_test_2",
+    "commands": [{
+      "id": "2230a112-f9b2-430b-a3b1-17467b2c1eda",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec84d88d-3a31-4346-9857-63d076ffe617",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee911d16-4da3-4c6b-9f29-2a46ecf7cf8e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,92)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fee32c0d-0424-412a-addf-5266fc88b8be",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "манга гарипотерр"
+    }, {
+      "id": "f314569f-07f8-4d63-acde-f0b939e53f7c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a861f900-09cb-4691-a2c4-d4173e3ee83b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7d433d7b-17c4-4094-a3eb-6f1e06487ac7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a982dcf-2559-4d72-b134-f116d56dcabe"]
+  }],
+  "urls": ["https://megamarket.ru/"],
+  "plugins": []
+}

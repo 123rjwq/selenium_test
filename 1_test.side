@@ -1,0 +1,181 @@
+{
+  "id": "92ee2911-14b7-4ab5-abda-d666cc3b25fa",
+  "version": "2.0",
+  "name": "1_test",
+  "url": "https://megamarket.ru",
+  "tests": [{
+    "id": "47db38c5-e619-4cf9-9727-497173328ac6",
+    "name": "1_test_2",
+    "commands": [{
+      "id": "801aecd2-988d-4213-adf1-023ac493a72c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29bc54d1-b1ba-4aac-af3c-140b20d5e060",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "362fd9de-e25c-478d-a2a1-e11413f5207d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cc3fd8e-c0fa-47cf-89b5-c4383cd14f5b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,92)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9024cffa-2491-43ae-84aa-81bd00d7d363",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.navigation-tags__link:nth-child(6) > .lazy-img",
+      "targets": [
+        ["css=.navigation-tags__link:nth-child(6) > .lazy-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://main-cdn.sbermegamarket.ru/upload/mnt/c3510368-a493-449e-99c1-466b4f7d0a89.png')]", "xpath:img"],
+        ["xpath=//header[@id='page-header']/div/div[2]/div/div/div/div/div/a[6]/img", "xpath:idRelative"],
+        ["xpath=//a[6]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e365ac1-3756-42fa-a5af-ec8ea1be670f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.navigation-tags__link:nth-child(6) > .lazy-img",
+      "targets": [
+        ["css=.navigation-tags__link:nth-child(6) > .lazy-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://main-cdn.sbermegamarket.ru/upload/mnt/c3510368-a493-449e-99c1-466b4f7d0a89.png')]", "xpath:img"],
+        ["xpath=//header[@id='page-header']/div/div[2]/div/div/div/div/div/a[6]/img", "xpath:idRelative"],
+        ["xpath=//a[6]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0edc3d2-e147-4c9b-9f5d-059f1ec1f3f6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "японская манга"
+    }, {
+      "id": "dfb7c156-7d91-44be-be8e-0f2b3785e106",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-field-input",
+      "targets": [
+        ["css=.search-field-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='page-header']/div/div/div/div/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "672955a2-c832-4f00-900f-7eff9eef71c3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fa02073-68bf-484c-b447-33e10ca8e3f6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "408454ae-84de-4321-8163-e92bde20a81d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#\\36 00010986145 > .item-image .lazy-img",
+      "targets": [
+        ["css=#\\36 00010986145 > .item-image .lazy-img", "css:finder"],
+        ["xpath=//img[@alt='Комикс Манга Берсерк. Том 1']", "xpath:img"],
+        ["xpath=//div[@id='600010986145']/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "859aa868-f29c-4949-88f3-3e2f561f31c9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#\\36 00010986145 > .item-image .lazy-img",
+      "targets": [
+        ["css=#\\36 00010986145 > .item-image .lazy-img", "css:finder"],
+        ["xpath=//img[@alt='Комикс Манга Берсерк. Том 1']", "xpath:img"],
+        ["xpath=//div[@id='600010986145']/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b5804f8-e62a-4fc3-bfe1-fbee1320daad",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 00010986145 .catalog-buy-button__button",
+      "targets": [
+        ["css=#\\36 00010986145 .catalog-buy-button__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='600010986145']/div[4]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[4]/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82cbd6c3-50de-4a2e-8395-c65f8e9ebd76",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.promo-product-items__col:nth-child(2) .promo-product-items__item-title",
+      "targets": [
+        ["css=.promo-product-items__col:nth-child(2) .promo-product-items__item-title", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/a/div/div[3]", "xpath:idRelative"],
+        ["xpath=//a/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cadda73e-0ff8-4b2b-999d-2c1686c7e578",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.my-modal__close-icon > .svg-icon",
+      "targets": [
+        ["css=.my-modal__close-icon > .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b532c275-f331-4dd0-8676-49e212c3c378",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-modal__close-icon > .svg-icon",
+      "targets": [
+        ["css=.my-modal__close-icon > .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a8e12398-ec6b-4263-beb0-7c7e9ec94c4c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["47db38c5-e619-4cf9-9727-497173328ac6"]
+  }],
+  "urls": ["https://megamarket.ru/"],
+  "plugins": []
+}
